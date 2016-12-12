@@ -1,0 +1,8 @@
+{
+  "nameTemplate": "dev{{.Project.Name}}{{.Function.Name}}",
+  "defaultEnvironment": "default",
+  "description": "Lambda functions build by Apex.",
+  "memory": 128,
+  "name": "Sample",
+  "timeout": 300
+}

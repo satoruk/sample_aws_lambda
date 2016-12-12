@@ -1,0 +1,9 @@
+{
+  "description": "DynamoDB access by Node.js",
+  "handler": "index.handler",
+  "hooks":{
+    "build": "npm install",
+    "clean": "git clean -xdf"
+  },
+  "runtime": "nodejs4.3"
+}

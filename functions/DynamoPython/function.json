@@ -1,0 +1,9 @@
+{
+  "description": "DynamoDB access by Python",
+  "handler": "main.handler",
+  "hooks":{
+    "build": "pip install -r requirements.txt -t .",
+    "clean": "git clean -xdf"
+  },
+  "runtime": "python"
+}
